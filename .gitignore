@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+
+# Compiled binaries & build artifacts
+/actions_dump
+/fwhelper/fwhelper
+*.o
+*.elf
+/payload/obj/
+/payload_arm/obj/
+
+# Compiled payloads & firmware/RAM/NAND dumps
+*.bin
+/fw_unpack/
